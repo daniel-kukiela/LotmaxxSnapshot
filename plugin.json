@@ -1,7 +1,7 @@
 {
     "name": "LotmaxxSnapshot plugin",
     "author": "DhanOS",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Adds Lotmaxx printer compatible snapshot (model image) to a gcode",
-    "api": 7
+    "supported_sdk_versions": ["7.0.0", "8.0.0"]
 }
