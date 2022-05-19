@@ -46,7 +46,7 @@ class LotmaxxSnapshot(Extension):
                 # Convert pixel data into hex values
                 rgb16_hex = "{:04x}".format(rgb16)
 
-                # Change rndianess to little-endian
+                # Change endianess to little-endian
                 rgb16_hex_le = rgb16_hex[2:4] + rgb16_hex[0:2]
 
                 # Add resulting values to a gcode
