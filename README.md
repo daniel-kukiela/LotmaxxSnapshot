@@ -1,7 +1,11 @@
 # Info
+*Note:* Updated to work with **Cura 5.0**
+
+*Note:* Turns out **MKS TFT** uses the same format, so the plugin should work for the boards using MKS TFT as well
+
 Cura plugin generating and embedding snapshot image of a model in a gcode.
 
-Designed and Tested with Lotmax SC-10 Shark. If it works with other printers, please let me know.
+Designed and Tested with Lotmax SC-10 Shark (users are mentioning it also works with MKS boards). If it works with other printers, please let me know.
 
 This plugin can be configured to work only with given printers, to avoid adding unnecessary snapshot images to the G-code for printers which do not support them.
  
@@ -23,5 +27,6 @@ This plugin can be configured to work only with given printers, to avoid adding 
 - At the top of `Start G-code` add `;simage` and/or `;gimage` depending on your needs. If you're unsure which one you need - add both.  
 ![G-code](images/cura_4.jpg "G-code")
 
-# TL;DR
-Everyone knows that programmers turn coffee into code. If you like this code, maybe consider [equipping me with more coffee](https://www.paypal.com/paypalme/danielkukiela)?
+# Support
+
+If you enjoy my work here, maybe [consider leaving me a tip](https://www.paypal.com/paypalme/danielkukiela)?
